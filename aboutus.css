@@ -1,0 +1,21 @@
+*{
+    font-family: sans-serif;
+}
+#top{
+    background-color: #333;
+    padding: 20px;
+    color:#eff6f8;
+    font-size: medium;
+    text-align:right;  
+
+}
+.hr{
+    border-color:rgb(255, 129, 11);
+}
+a {
+    color: white;
+  }
+  a:hover{
+    color:rgb(230, 115, 7) ;
+}
+  

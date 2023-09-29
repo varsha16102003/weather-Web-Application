@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="top">
+<a href="home.html">Home |</a>
+<a href="aboutus.html">About us |</a>
+<a href="login.html">login |</a>
+    </div>
+    <div id="pic">
+        <h1>Forecastnook</h1>
+    </div>
+    <div id="block"></div>
+    <div class="container">
+        <label for="locationInput">Location:</label>
+        <input type="text" id="locationInput" placeholder="Enter"><br>
+        <br>
+        <label for="temperatureUnit">Select Temperature Unit:</label>
+    <select id="temperatureUnit">
+        <option value="metric">Celsius (°C)</option>
+        <option value="imperial">Fahrenheit (°F)</option>
+        <option value="standard">Kelvin (K)</option>
+    </select>
+        <button id="getWeatherBtn">Get Weather</button>
+        <div id="weatherResult"></div>
+
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
